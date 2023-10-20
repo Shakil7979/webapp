@@ -1,0 +1,89 @@
+.custom-whole-section{
+    margin-top: 10%;
+}
+
+
+.sqanQRButton{
+    margin: auto;
+    width: 200px; 
+    margin-bottom: 20px;
+}
+.howtowatch-box {
+    background: #191e24f2;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: left;
+    color: #AFAFAF;
+    width: 70%;
+
+}
+
+.instructions-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.instructions-list li{
+    list-style: auto;
+}
+
+.instructions-list li::marker{
+    color: #fff;
+}
+
+/* .instructions-list li::before {
+    counter-increment: instruction;
+    content: counter(instruction) ". ";
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-right: 10px;
+} */
+
+.instructions-list li {
+    margin-left: 20px;
+}
+
+.qr-code-image {
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px;
+
+}
+
+h4 {
+    font-size: 1.8rem;
+    padding: 40px;
+    text-align: left;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mobilePic{
+    height:150px;
+}
+.arrow{
+    margin-top: 20px; 
+    width: 110px;
+}
+.mobile-text{
+    display: none;
+}
+
+
+@media (max-width: 780px) {
+    .howtowatch-box{
+        width: 100%;
+    }
+    .custom-whole-section{
+        margin-top: 20%;
+    }
+    .mobile-text{
+        display: block;
+    }
+    .desktop-text{
+        display: none;
+    }
+}

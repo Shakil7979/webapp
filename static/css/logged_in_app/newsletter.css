@@ -1,0 +1,29 @@
+.newslettersubscribe-content form button {
+	padding: 1.5% 14%;
+	font-size: 20px;
+}
+.newslettersubscribe{
+    padding-left: 5%; 
+    padding-right: 5%;
+}
+
+.newslettersubscribe-content {
+	background: #191e24f2;
+	border-radius: 15px;
+}
+.input-group .form-control{
+    border-radius: 8px;  
+    background: #526070 ;
+}
+
+section.custom-padding.blocktext.newslettersubscribe.row {
+	height: 90vh;
+}
+
+.NewsletterUnsubscribe_content p {
+	font-size: 18px; 
+}
+
+.input-wrapper {
+    position: relative;
+}

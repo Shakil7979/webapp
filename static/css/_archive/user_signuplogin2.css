@@ -1,0 +1,102 @@
+.input-wrapper {
+    position: relative;
+}
+
+.form-container {
+    background-color: rgb(25 30 36 / 90%);
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+}
+
+.form-container .login-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.toggle-btn {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.form-content {
+
+    display: none;
+    width: 100%;
+}
+
+.form-content.active {
+    display: block;
+}
+
+.toggle-btn {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    margin-right: 10px;
+    color: #fff;
+    position: relative;
+}
+
+.toggle-btn.active {
+    color: #dc3545;
+}
+
+.toggle-btn.active::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 85%;
+    height: 2px;
+    background-color: #dc3545;
+}
+
+.toggle-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.phone-number-row {
+    margin-bottom: 0 ;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* Add the following style to adjust the bottom border of the buttons */
+.btn {
+    position: relative;
+}
+
+.btn:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    background: #dc3545;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s;
+}
+
+.btn:hover:after {
+    transform: scaleX(1);
+}
+
+.form-control {
+    background-color: #2c3a4a;
+    border: none;
+}

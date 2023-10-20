@@ -1,0 +1,52 @@
+.credit-card {
+    display: inline-block;
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    color: #fff;
+    position: relative;
+}
+
+.credit-card.green {
+    background-color: #2ecc71;
+}
+
+.credit-card.yellow {
+    background-color: #f1c40f;
+}
+
+.credit-card.red {
+    background-color: #e74c3c;
+}
+
+.credit-card-logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+}
+
+.credit-card-number {
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.credit-card-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 14px;
+}
+
+.cardholder-name {
+    text-transform: uppercase;
+}
+
+.expiration-date {
+    text-align: right;
+}

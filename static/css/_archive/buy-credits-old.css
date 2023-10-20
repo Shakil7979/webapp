@@ -1,0 +1,253 @@
+body {
+    margin: 0;
+    font-family: "SF Pro Text";
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.wallet-container {
+    display: flex;
+    max-width: 90%;
+    max-height: 90%;
+    height: 80vh;
+    margin: 7% auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.wallet-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #191E24;
+    opacity: 0.9;
+    border-radius: 15px;
+    z-index: -1;
+    /* Add this line */
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+    background-color: #2c3a4a;
+    overflow-y: hidden;
+    border-radius: 0px 10px 10px 0px;
+    opacity: 1 !important;
+}
+
+.right-section h2 {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.left-section {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+
+.coach_img:focus {
+    max-width: 70%;
+}
+
+.owl-card-main-wrap {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+/*.owl_card_main_wrap.active:hover .credit-card {
+    transform: rotateY(180deg);
+    transition: transform 0.6s;
+}*/
+.flip .credit-card {
+    transform: rotateY(180deg);
+    transition: transform 0.6s;
+}
+
+.owl_card_wrap {
+    border-radius: 15px !important;
+}
+
+.credit-card {
+    display: inline-block;
+    width: 270px;
+    height: 160px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9);
+    color: #fff;
+    position: relative;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+.card-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    background-color: rgba(0.2, 0.5, 0.1, 0.5);
+}
+
+.credit-card .card-row {
+    position: relative;
+}
+
+.credit-card .card-row .valid-thru {
+    font-size: 10px;
+    margin-right: 5px;
+    white-space: nowrap;
+}
+
+.logo-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.credit-card .card-type-logo {
+    max-width: 20%;
+    z-index: 1;
+}
+
+.back-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.owl_card_main_wrap.active:hover .back-content {
+    display: flex;
+}
+
+
+.credit-card .card-row:nth-child(2) {
+    font-size: 100%;
+    font-family: 'SF-Pro-Text-Bold';
+    bottom: 40%;
+    top: 40%;
+    left: 10%;
+    position: absolute;
+    letter-spacing: 1.5%;
+    max-width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.credit-card .card-row:nth-child(3) {
+    display: flex;
+    font-family: "SF Pro Text Semibold";
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 60%;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    right: 10%;
+}
+
+.credit-card .card-row .cardholder-name {
+    text-transform: uppercase;
+}
+
+.credit-card .card-row .expiration-date {
+    text-align: right;
+}
+
+.credit-card.green {
+    background-color: #7BBD59;
+}
+
+.credit-card.yellow {
+    background-color: #FFAC26;
+}
+
+.credit-card.blue {
+    background-color: #2A98FF;
+}
+
+.card-back.green {
+    background-color: #7BBD59;
+}
+
+.card-back.yellow {
+    background-color: #FFAC26;
+}
+
+.card-back.blue {
+    background-color: #2A98FF;
+}
+
+.credit-card-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 14px;
+}
+
+.expiration-date {
+    text-align: right;
+}
+
+.preferred_method {
+    max-height: 15px;
+}
+
+.buttons-set-1,
+.buttons-set-2 {
+    display: none;
+}
+
+.buttons-set-1 {
+    flex-direction: column;
+}
+
+.buttons-set-1 button,
+.buttons-set-2 button {
+    backdrop-filter: blur(10px) !important;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 5px;
+    width: 80%;
+    text-align: center;
+}
+
+.buttons-set-1 button:hover,
+.buttons-set-2 button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.order-summary-button {
+    background-color: #C12734;
+    max-width: 50%;
+    align-items: center;
+    border-radius: 10px;
+}

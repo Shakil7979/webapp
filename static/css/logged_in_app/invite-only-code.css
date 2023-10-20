@@ -1,0 +1,84 @@
+
+.invite-only-section {
+    display: flex;
+    align-items: center;
+    /* height: calc(100vh - 100px); */
+    height: 90vh;
+    /*margin-top: 100px;*/
+    /* overflow: hidden;  */
+}
+div.io-details{
+    padding-top: 200px;
+}
+div.io-details div{
+    z-index:1;
+    background: #191e24f2; 
+    border-radius: 15px;
+}
+h1.custom-dot-bottom {
+    line-height: 2;
+    color: #afafaf;
+}
+.custom-percentage-container{
+    color:#AFAFAF;
+}
+.custom-percentage-container h1{
+    margin-bottom: -10px;
+}
+.custom-percentage-container span{
+    font-size: 14px;}
+form input.first-input, form input.second-input{
+    width: 100px; 
+    border-radius: 8px; 
+}    
+form input.first-input{
+    margin-right: 0.8rem;
+}
+form .splitter{
+    margin: 0.5rem;
+    margin-right: 0.8rem;
+}
+form button{
+    margin-bottom: -70px;
+}
+div.io-details div.register-interest-btn{
+    background: none;
+}
+.custom-count-bg {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 5px !important;
+}
+.digit-group input {
+    width: 25px;
+    height: 40px;
+    background: #526070;
+    border: none;
+    padding: 10px 0px 10px 0px !important;
+    text-align: center;
+    font-size: 22px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+    color: white;
+    margin: 0px;
+}
+
+.digit-group .splitter {
+    padding: 0px;
+    color: #afafaf;
+    font-size: 24px;
+}
+.digit-group input:focus {
+    outline: 0;
+    box-shadow: none !important;
+}
+
+@media (max-width: 500px) {
+    form input.first-input, form input.second-input{
+        width: 50px; 
+    } 
+    .io-title{
+        margin-top: 60px;
+    }
+}

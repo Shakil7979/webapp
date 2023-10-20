@@ -1,0 +1,332 @@
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+:root {
+    /* fonts */
+    --font-sf-pro-text: "SF Pro Text";
+
+    /* font sizes */
+    --font-size-20xl: 39px;
+
+    /* Colors */
+    --color-crimson: rgba(204, 41, 54, 0);
+    --color-white: #fff;
+    --color-darkslategray: rgba(44, 58, 74, 0);
+
+    /* border radiuses */
+    --br-3xs: 10px;
+    --br-8xs: 5px;
+}
+
+.karsten-winegeart-0wra5yyvqje- {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-8xs);
+    width: 1918px;
+    height: 1279px;
+    background-image: url(./public/karstenwinegeart0wra5yyvqjeunsplash@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.web-1920-4-child,
+.web-1920-4-item {
+    position: absolute;
+    left: 890px;
+    background-color: var(--color-darkslategray);
+    backdrop-filter: blur(30px) brightness(115%);
+    width: 140px;
+    height: 1920px;
+    transform: rotate(90deg);
+}
+
+.web-1920-4-child {
+    top: -890px;
+}
+
+.web-1920-4-item {
+    bottom: -892px;
+}
+
+.b {
+    position: absolute;
+    top: 0;
+    left: 1302.52px;
+}
+
+.path-12146-icon,
+.path-12147-icon,
+.timeline-child {
+    position: absolute;
+    top: 28.32px;
+    left: -5px;
+    width: 1240.64px;
+    height: 10px;
+}
+
+.path-12146-icon,
+.timeline-child {
+    width: 279.02px;
+}
+
+.timeline-child {
+    top: 8.78px;
+    left: 240.48px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.timeline {
+    position: absolute;
+    top: 981.11px;
+    left: 290.74px;
+    width: 1430.52px;
+    height: 58.78px;
+}
+
+.hiit,
+.ready-to-burn {
+    position: absolute;
+    top: 15px;
+    left: 791px;
+    font-size: 55px;
+    line-height: 39px;
+    text-align: left;
+}
+
+.hiit {
+    top: 80px;
+    left: 949px;
+    font-size: 35px;
+    line-height: 38px;
+    color: #eaeaea;
+}
+
+.timnorton {
+    position: absolute;
+    top: 89px;
+    right: 99px;
+    font-size: 30px;
+    letter-spacing: -0.01px;
+    font-weight: 800;
+}
+
+.b1 {
+    top: calc(50% - 23.32px);
+    left: calc(50% - 22.25px);
+    font-size: var(--font-size-20xl);
+    font-family: var(--font-sf-pro-text);
+    color: var(--color-white);
+    text-align: center;
+}
+
+.b1,
+.b2,
+.wrapper {
+    position: absolute;
+}
+
+.wrapper {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    height: calc(100% - 11.33px);
+    top: 1.54px;
+    right: 0;
+    bottom: 9.79px;
+    width: 91.62px;
+    background-image: url(./public/group-55153@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.b2 {
+    top: calc(50% - 23.32px);
+    left: calc(50% - 22.24px);
+    font-size: var(--font-size-20xl);
+    font-family: var(--font-sf-pro-text);
+    color: var(--color-white);
+    text-align: center;
+}
+
+.container,
+.group-child {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    position: absolute;
+}
+
+.container {
+    background-color: transparent;
+    height: calc(100% - 11.33px);
+    top: 1.76px;
+    bottom: 9.57px;
+    left: 0;
+    width: 91.62px;
+    background-image: url(./public/group-55152@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.group-child {
+    background-color: var(--color-white);
+    height: calc(100% - 18px);
+    top: 9px;
+    bottom: 9px;
+    left: calc(50% - 51.37px);
+    width: 105px;
+    transform: rotate(90deg);
+}
+
+.group-parent {
+    position: absolute;
+    top: 487.5px;
+    left: 648.71px;
+    width: 622.58px;
+    height: 105px;
+}
+
+.chevron-down-1-icon {
+    position: absolute;
+    top: 52.5px;
+    left: 52.5px;
+    width: 35.13px;
+    height: 56.4px;
+}
+
+.on-demand1 {
+    position: absolute;
+    top: calc(50% - 11.5px);
+    left: 14px;
+    letter-spacing: -0.01px;
+    line-height: 17px;
+    font-weight: 800;
+}
+
+.on-demand {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--br-8xs);
+    background-color: #1a82f6;
+}
+
+.live {
+    position: absolute;
+    top: 50px;
+    left: 265px;
+    width: 156px;
+    height: 41px;
+    font-size: 20px;
+}
+
+.pngegg-icon {
+    position: absolute;
+    height: calc(100% - 13.37px);
+    top: 6.68px;
+    bottom: 6.68px;
+    left: calc(50% - 16.04px);
+    border-radius: 44px;
+    max-height: 100%;
+    width: 33.42px;
+    object-fit: cover;
+}
+
+.pngegg-wrapper {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--br-3xs);
+    backdrop-filter: blur(30px) brightness(70%);
+    width: 66.85px;
+}
+
+.chevron-down-1-icon1 {
+    position: absolute;
+    top: calc(50% - 6.69px);
+    left: calc(50% - 11.7px);
+    width: 24.12px;
+    height: 14.93px;
+}
+
+.chevron-down-1-wrapper {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: calc(50% - 30.08px);
+    border-radius: var(--br-3xs);
+    background-color: var(--color-crimson);
+    backdrop-filter: blur(30px) brightness(70%);
+    width: 66.85px;
+}
+
+.chatting-icon {
+    position: absolute;
+    top: calc(50% - 12.14px);
+    left: calc(50% - 13.95px);
+    width: 29.39px;
+    height: 25.8px;
+}
+
+.chatting-wrapper {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: var(--color-crimson);
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: var(--br-3xs);
+    backdrop-filter: blur(30px) brightness(70%);
+    width: 66.85px;
+}
+
+.group-container {
+    position: absolute;
+    bottom: 153px;
+    left: 30px;
+    width: 606px;
+    height: 47px;
+}
+
+.mask-group-13 {
+    position: absolute;
+    top: 9px;
+    right: 152px;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.web-1920-4 {
+    position: relative;
+    background-color: #071428;
+    width: 100%;
+    height: 1080px;
+    text-align: center;
+    font-size: 45px;
+    color: var(--color-white);
+    font-family: var(--font-sf-pro-text);
+}

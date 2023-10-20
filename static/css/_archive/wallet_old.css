@@ -1,0 +1,352 @@
+* {
+    font-family: "SF Pro Text";
+}
+
+body {
+    margin: 0;
+    font-family: "SF Pro Text";
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.logo {
+    width: 12%;
+    height: 12%;
+}
+
+.wallet-container {
+    display: flex;
+    max-width: 90%;
+    max-height: 90%;
+    height: 80vh;
+    margin: 7% auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.wallet-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #191E24;
+    opacity: 0.9;
+    border-radius: 15px;
+    z-index: -1;
+    /* Add this line */
+}
+
+
+.outer-ring {
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    border: 5px solid #2c3a4a;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.inner-ring {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    border: 2px solid #2c3a4a;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: #2c3a4a;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.button:hover {
+    background-color: #3d556b;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    padding: 20px;
+    background-color: #2c3a4a;
+    overflow-y: hidden;
+    border-radius: 0px 10px 10px 0px;
+    opacity: 1 !important;
+}
+
+
+.right-section h2 {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.transaction-table {
+    display: flex;
+    flex-direction: column;
+    max-height: calc(100% - 40px);
+    overflow-y: scroll;
+}
+
+.transaction {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1%;
+    border-radius: 5px;
+    background-color: #2C3A4A;
+}
+
+.transaction-logo-container {
+    flex: 0 0 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    box-sizing: border-box;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    background-color: #808080;
+    border-radius: 5px;
+}
+
+.transaction-logo {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.transaction-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 10px;
+    margin-bottom: 0;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    row-gap: 0px;
+    /* Adjust this value as needed */
+}
+
+.transaction-details>div:last-child {
+    margin-bottom: 0;
+}
+
+.transaction-subtype {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: -2%;
+}
+
+.transaction-username {
+    font-size: 14px;
+    margin-bottom: -1.5%;
+}
+
+.transaction-date {
+    font-size: 12px;
+}
+
+.last_transactions_text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding-right: 15px;
+    /* Add this line */
+}
+
+.transaction-type {
+    font-size: 12px;
+}
+
+.transaction-amount {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -5%;
+}
+
+.positive {
+    color: #4DB748;
+}
+
+.negative {
+    color: #C32937;
+}
+
+.total_balance_main {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+    border: 6px solid #fff;
+    border-radius: 50%;
+}
+
+.last_transactions_btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.transaction-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.transaction-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.right-section h2 {
+    text-align: left;
+}
+
+.left-section {
+    display: flex;
+    flex: 3.5;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.total-balance-container {
+    position: relative;
+    text-align: center;
+}
+
+.rings-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+    margin-bottom: 5%;
+    margin-top: -5%;
+}
+
+.outer-ring,
+.inner-ring {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.outer-ring {
+    border: 25px solid #fff;
+    width: 400px;
+    height: 400px;
+}
+
+.inner-ring {
+    border: 15px solid #fff;
+    width: 300px;
+    height: 300px;
+}
+
+.balance-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 2;
+    margin-bottom: 5%;
+    margin-top: -33%;
+}
+
+.logo {
+    width: 5%;
+}
+
+.balance-heading {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.buttons-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 17%;
+    text-align: center;
+}
+
+.icon-container {
+    position: absolute;
+    left: 8%;
+}
+
+.buttons-inner {
+    max-width: 30%;
+}
+
+.full-width-btn {
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+.btn-spacing {
+    margin-bottom: 10px;
+}
+.red_btn_wrap{
+	margin-top: 109px;
+	text-align: center;
+}
+.red_btn_wrap > a{
+	padding: 13px 55px;
+	border-radius: 10px;
+	background: #c12734;
+	border: 1px solid #c12734;
+}
+.red_btn_wrap > a:hover{
+	color: #fff;
+	background-color: transparent;
+}
+.go_to_order{
+	font-family: SF-Bold;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.2;
+	text-align: center;
+	color: #fff;
+	display: inline-block;
+}

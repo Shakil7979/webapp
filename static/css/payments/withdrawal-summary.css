@@ -1,0 +1,266 @@
+body {
+    margin: 0;
+    font-family: "SF Pro Text";
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  .summary-container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    max-width: 40%;
+    max-height: 40%;
+    height: 80vh;
+    margin: 5% auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    align-items: center;
+  }
+
+
+  .summary-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #191E24;
+    opacity: 0.9;
+    border-radius: 15px;
+    z-index: -1;
+  }
+
+  .order-detail {
+    position: relative;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2C3A4A;
+    border-radius: 10px;
+    padding: 5%;
+    max-height: 1%;
+    margin: 2% auto;
+  }
+
+  .order-detail h6 {
+    white-space: nowrap;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 0.5rem;
+    color: #fff;
+  }
+
+  .order-detail h7 {
+    white-space: nowrap;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 0.5rem;
+    color: #fff;
+  }
+
+  .order-detail h2 {
+    color: #D0D1D3;
+    font-size: 30px;
+    margin-bottom: 0.5rem;
+  }
+
+  .order-detail p {
+    font-size: 16px;
+    color: #D0D1D3;
+  }
+
+  .order-details-wrapper {
+    width: 50%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .order-summary {
+    width: 50%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .section-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+
+
+  .credit-card {
+    display: inline-block;
+    width: 90%;
+    height: 160px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9);
+    color: #fff;
+    background-color: #FFAC26;
+    position: relative;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+  }
+
+  .credit-card .card-row {
+    position: relative;
+  }
+
+  .credit-card .card-row .valid-thru {
+    font-size: 10px;
+    margin-right: 5px;
+    white-space: nowrap;
+  }
+
+  .logo-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  .credit-card .card-type-logo {
+    max-width: 20%;
+    z-index: 1;
+  }
+
+  .credit-card .card-row:nth-child(2) {
+    font-size: 100%;
+    font-family: 'SF-Pro-Text-Bold';
+    bottom: 40%;
+    top: 40%;
+    left: 10%;
+    position: absolute;
+    letter-spacing: 1.5%;
+    max-width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .credit-card .card-row:nth-child(3) {
+    display: flex;
+    font-family: "SF Pro Text Semibold";
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 60%;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    right: 10%;
+  }
+
+  .credit-card .card-row .cardholder-name {
+    text-transform: uppercase;
+  }
+
+  .credit-card .card-row .expiration-date {
+    text-align: right;
+  }
+
+
+  .title-wrapper {
+    position: relative;
+    grid-row: 1;
+    text-align: center;
+    color: white;
+    z-index: 2;
+    padding: 5%;
+  }
+
+  .credit-package {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #2C3A4A;
+    border-radius: 10px;
+    width: 100%;
+    transition: transform 0.3s, background-color 0.3s;
+    margin: 10px;
+  }
+
+  .image-container {
+    position: relative;
+    width: 70%;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .image-container img {
+    width: auto;
+    height: 100%;
+  }
+
+  .package-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+  }
+
+  .credits-logo {
+    margin-right: 10%;
+    width: 40%;
+    vertical-align: middle;
+    justify-content: center;
+  }
+
+  .credits-amount {
+    margin-top: 10%;
+    color: white !important;
+    display: inline-flex;
+    align-items: center;
+  }
+
+
+  .details-container {
+    display: flex;
+    margin-top: -5%;
+    width: 100%;
+    align-items: flex-start;
+    grid-row: 2;
+  }
+
+
+  .order-total {
+    color: #191E24;
+    background-color: #D0D1D3;
+    width: 95%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+    padding: 1rem 0;
+    order: 3;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 2% auto;
+
+  }
+
+
+  .confirm-order-button {
+    font-size: 22px;
+    background-color: #C12734;
+    padding: 3%;
+    border-radius: 0 0 10px 10px;
+    width: 100%;
+  }

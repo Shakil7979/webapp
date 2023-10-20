@@ -1,0 +1,183 @@
+
+
+
+@media all and (max-width:1580px){
+    .camera_area img {
+        max-width: 60px;
+    }
+    .profile_view_box h2 {
+        font-size: 25px;
+    }
+    .profile_view_box h3 {
+        font-size: 18px;
+    }
+    .form-group input:checked + label::after { 
+        top: 2px; 
+    }
+    .camera_area span {
+        font-size: 20px;
+        max-width: 200px;
+        height: 44px;
+        border: 2px solid white;
+    }
+    .user_control_left ul li img {
+        width: 18px;
+    }
+    .user_control_left ul li {
+        height: 28px;
+        width: 40px;
+        margin-right: 95px;
+    }
+    .user_control_right ul li {
+        height: 35px;
+        width: 35px;
+        padding: 8px;
+        display: flex;
+    }
+    .user_control_right ul li:last-child {
+        font-size: 18px;
+        padding: 2px 15px;
+    }
+    .live_intication ul li {
+        width: 60px;
+        height: 25px;
+    }
+    .live_intication ul li span {
+        font-size: 14px;
+    }
+    .live_intication ul li:last-child span {
+        font-size: 15px;
+    }
+    .live_intication ul li:last-child {
+        height: 25px;
+    }
+    .chat_user_content {
+        height: 380px;
+        overflow-y: scroll;
+    }
+    .chat_form {
+        padding: 4px 12px;
+    }
+    .chat_form input::placeholder {
+        font-size: 15px;
+    }
+    .chat_form img {
+        width: 20px;
+        height: 20px;
+    }
+    .chat_form {
+        max-width: 330px;
+    }
+    .end_successfully_popup_area input {
+        font-size: 16px;
+    }
+    .end_successfully_popup_area p {
+        font-size:18px;
+    }
+    textarea{
+        height: 170px;
+    }
+    .end_popup_area p {
+        font-size: 18px;
+    }
+    .end_popup_area h3 {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+    .end_popup_control_btn li span {
+        font-size: 15px;
+        padding: 10px 39px;
+    }
+    .end_successfully_popup_area h3 {
+        font-size: 26px;
+    }
+    .strim_setting_area h1 {
+        font-size: 26px;
+    }
+    .input_items {
+        padding: 10px 20px;
+    }
+    .input_items span img{
+        width: 55%;
+    }
+    .input_items select {
+        font-size: 15px;
+        margin-left: 20px;
+        position: absolute;
+        left: 35px;
+    }
+    .form-group label {
+        font-size: 15px;
+    }
+
+}
+    @media all and (max-width:767px){
+        .user_control_bottom {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-end;
+            flex-wrap: wrap;
+        }
+        .user_outter {
+            margin-bottom: 20px;
+        }
+        .user_control_right ul li {
+            margin-left: 10px;
+        }
+        .user_control_right ul li:last-child {
+            font-size: 15px;
+        }
+        .user_control_area {
+            z-index: 9;
+        }
+        .chat_user_info h5 {
+            font-size: 14px;
+        }
+        .chat_user_info h6 {
+          
+            font-size: 12px;
+           
+            margin-bottom: 0;
+        }
+        .chat_user_logo img {
+            height: 35px;
+            width: 34px;
+        }
+         
+        .end_successfully_popup_area p {
+            font-size: 15px;
+            margin: 15px 0;
+        }
+        .end_successfully_popup_area textarea { 
+            font-size: 14px;
+        }
+        .end_successfully_popup_area {
+            padding: 20px 24px;
+        }
+        .end_popup_area p {
+            font-size: 15px;
+        }
+        .strim_setting_area{
+            padding: 20px;
+        }
+        .arrow_down{
+            display: none;
+        }
+        .input_items {
+             
+            overflow: hidden;
+        }
+        
+    }
+    @media all and (max-width:767px){
+        .form-group input:checked + label::after {
+            top: 3px; 
+            width: 8px;
+            height: 15px;
+        }
+    }
+    @media all and (max-width:450px){
+        .form-group input:checked + label::after { 
+            left: 8px; 
+        }
+    }

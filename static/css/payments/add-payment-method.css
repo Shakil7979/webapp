@@ -1,0 +1,305 @@
+body {
+    margin: 0;
+    font-family: "SF Pro Text";
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  .hero_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .payment-container {
+    background-color: rgba(25, 30, 36, 0.95);
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 40%;
+    margin: 10% auto;
+    margin-top: 15%;
+  }
+
+  .input-field {
+    background-color: #454F5B;
+    border: none;
+    border-radius: 5px;
+    color: #D0D2D5;
+    padding: 10px;
+    width: 100%;
+    outline: none;
+  }
+
+  .input-field::-webkit-input-placeholder {
+    color: #D0D2D5;
+  }
+
+  .input-field:-ms-input-placeholder {
+    color: #D0D2D5;
+  }
+
+  .input-field::-ms-input-placeholder {
+    color: #D0D2D5;
+  }
+
+  .input-field::placeholder {
+    color: #D0D2D5;
+  }
+
+  .input-container {
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  .input-status {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    display: none;
+  }
+
+  .credit-card {
+    display: inline-block;
+    width: 270px;
+    height: 160px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #FFAC26;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9);
+    color: #fff;
+    position: absolute;
+    margin-bottom: 20px;
+    top: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+  }
+
+  .credit-card {
+    background-color: #FFAC26;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .credit-card .card-row {
+    position: relative;
+  }
+
+  .credit-card .card-row .valid-thru {
+    font-size: 10px;
+    margin-right: 5px;
+    white-space: nowrap;
+  }
+
+  .logo-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  .credit-card .card-type-logo {
+    max-width: 20%;
+    z-index: 1;
+  }
+
+  .credit-card .card-row:nth-child(2) {
+    font-size: 100%;
+    font-family: 'SF-Pro-Text-Bold';
+    bottom: 40%;
+    top: 40%;
+    left: 10%;
+    position: absolute;
+    letter-spacing: 1.5%;
+    max-width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .credit-card .card-row:nth-child(3) {
+    display: flex;
+    font-family: "SF Pro Text Semibold";
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 60%;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    right: 10%;
+  }
+
+  .credit-card .card-row .cardholder-name {
+    text-transform: uppercase;
+  }
+
+  .credit-card .card-row .expiration-date {
+    text-align: right;
+  }
+
+  .credit-card-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 14px;
+  }
+
+  .expiration-date {
+    text-align: center;
+  }
+
+  .input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .input-field {
+    flex-grow: 1;
+    border-radius: 8px;
+    background-color: #454F5B;
+    color: #D0D2D5;
+    border: none;
+    padding: 10px;
+    height: 50px;
+  }
+
+  .input-status {
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;
+  }
+
+  .expiration-cvv-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .expiration-date,
+  .cvv {
+    flex-grow: 1;
+  }
+
+  .save-payment-button {
+    margin-top: 5%;
+    background-color: #C12734;
+    max-width: 70%;
+    min-width: 70%;
+    align-items: center;
+    border-radius: 10px;
+  }
+
+  .input-field.expiration-date {
+    width: 60%;
+  }
+
+  .input-field.cvv {
+    width: 40%;
+  }
+
+  .card-type-selector {
+    display: block;
+    text-align: center;
+  }
+
+  .card-type-option {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #454F5B;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card-type-option img {
+    position: absolute;
+    margin-left: -80%;
+    height: 70%;
+  }
+
+  .card-type-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .card-type-option span {
+    position: absolute;
+    color: white;
+    font-size: 18px;
+  }
+
+  .card-type-option input[type="radio"] {
+    display: none;
+  }
+
+
+  .card-type-option input[type="radio"]:checked+.card-type-option-background {
+    background-color: #ACBACA;
+    opacity: 1;
+  }
+
+  .card-type-option-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #ACBACA;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .card-type {
+    font-size: 26px ;
+     margin-top: 15%;
+  }
+ .payment-method-details{
+    font-size: 26px ;
+  }
+
+  div.back_button{
+    position: absolute;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media (min-width: 330px) and (max-width: 767px) {
+    div.back_button{
+     display: none;
+    }
+  }
+
+ @media (max-width: 780px) {
+  .payment-container {
+    max-width: 90%;
+margin-top: 60%;
+  }
+  body{
+    overflow: scroll;
+  }
+
+ }

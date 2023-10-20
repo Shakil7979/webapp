@@ -1,0 +1,1282 @@
+@media (min-width: 1280px){
+    .container{
+        max-width: 1230px;
+    }
+    .tab_menu_wrap .container{
+        max-width: 100%;
+    }
+}
+@media screen and (min-width:1440px){
+    .footer_wrapper .container{
+        max-width: 1433px;
+        margin: 0;
+    }
+}
+@media screen and (min-width:1800px){
+    .container,
+    .tab_menu_wrap .container{
+        max-width: 1777px;
+    }
+}
+
+
+@media (max-width: 1800px){
+    .menu_item {
+        margin: 0 115px;
+    }
+    .index_page #hero_sec {
+        padding: 325px 0;
+        height: 100vh;
+    }
+    .chart_btn > a {
+        font-size: 18px;
+        width: 180px;
+        height: 40px;
+    }
+    .header_video_wrap .container {
+        max-width: 100%;
+    }
+}
+@media (max-width: 1600px){
+    .menu_item {
+        margin: 0 75px;
+    }
+    .footer_wrapper {
+        padding: 100px 0 55px;
+    }
+    .f_menu_wrap {
+        padding-left: 110px;
+    }
+    .footer_wrapper .container {
+        margin: 0 auto;
+    }
+    .f_menu_wrap {
+        justify-content: space-between;
+    }
+    .f_menu_wrap > a + a {
+        margin-left: 0;
+    }
+    .dash_title h2 {
+        font-size: 40px;;
+    }
+    .chart_btn > a {
+        width: auto;
+        height: auto;
+        padding: 10px 15px;
+    }
+}
+@media (max-width: 1440px){
+    .recipes_nutrition_wrap, .content_creation_wrap {
+        padding-bottom: 160px;
+    }
+    .f_menu_wrap {
+        padding-left: 90px;
+    }
+    .f_logo {
+        width: 377px;
+    }
+    .social_box h6 {
+        font-size: 24px;
+    }
+    .f_menu_wrap > a {
+        font-size: 21px;
+    }
+    .hero_title {
+        font-size: 100px;
+    }
+    .fitness_title h3 {
+        font-size: 70px;
+    }
+    .servise_wrap {
+        margin: 80px auto 0;
+    }
+    .servise_product_title {
+        font-size: 42px;
+        margin: 38px 0 20px;
+    }
+    .h6_title {
+        font-size: 27px;
+    }
+    .tab-content {
+        padding: 44px 20px 44px 30px;
+    }
+    .chart_wrap {
+        width: calc(100% - 200px);
+        padding-left: 30px;
+    }
+    .chart_data {
+        margin-top: 0;
+        width: 200px;
+    }
+    .totale_price {
+        font-size: 37px;
+    }
+    .chart_details {
+        padding-left: 0;
+    }
+    .tab_btn_wrap {
+        width: 300px;
+    }
+    .tab_content{
+        width: calc(100% - 300px);
+    }
+    ul.tabs li {
+        height: auto;
+        padding: 30px 15px;
+    }
+    ul.tabs li h6 {
+        font-size: 25px;
+    } 
+    ul.tabs li + li {
+        margin-top: 30px;
+    }  
+    .inner_page .menu_list
+    /* , .log_out_btn */
+    {
+        font-size: 10px;
+    } 
+    .tab-link svg {
+        width: 34%;
+    }
+    .cm_td {
+        padding: 20px 0 20px 30px;
+    }
+    .cm_td h6{
+        font-size: 20px;
+    }
+    .cm_th{
+        padding: 0 0 7px 30px;
+    }
+    .cm_th h2{
+        font-size: 28px;
+    }
+    .cm_td:nth-child(3), .cm_th:nth-child(3) {
+        width: 230px;
+    }
+    .cmc_container {
+        width: 98%;
+    }
+    .play {
+        width: 380px;
+    }
+    .video_tab ul.tabs li{
+        padding: 0;
+    }
+  
+}
+
+@media (max-width: 1360px){
+    #tab-2 .dash_title_wrap {
+        padding-right: 0;
+    }
+
+}
+
+@media (max-width: 1280px){
+    .menu_item {
+        margin: 0 35px;
+    }
+    /* .menu_list {
+        font-size: 28px;
+    } */
+    .recipes_nutrition_wrap, .virtual_fitness_wrap {
+        width: 90%;
+    }
+    .content_creation_wrap, .coach_profile_wrap {
+        width: 97%;
+    }
+    .scroll-prompt-arrow > div {
+        width: 26px;
+        height: 26px;
+        border-right: 4px solid #bebebe;
+        border-bottom: 4px solid #bebebe;
+    }
+    .chart_btn {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .chart_btn a{
+        margin-bottom: 20px;
+    }
+    .chart_btn a + a {
+        margin-left: 0;
+    }
+    .dash_title h2 {
+        font-size: 38px;
+    }
+    .inner_page .menu_list
+    /* , .log_out_btn  */
+    {
+        font-size: 20px;
+    }
+    .nice-select {
+        width: 270px;
+        height: 50px;
+        padding: 0 40px 0 34px;
+    }
+    span.current {
+        font-size: 24px;
+    }
+    .nice-select .option {
+        font-size: 20px;
+        height: 45px;
+    }
+    .cmc_col_50 {
+        width: 100%;
+    }
+    .cmc_row {
+        flex-wrap: wrap;
+    }
+    /* .credit_card_slider {
+        padding-top: 60px;
+    } */
+    .cmc_col_50:first-child {
+        border-radius: 30px 30px 0 0;
+    }
+    .credit_amount {
+        padding: 44px 40px 70px;
+    }
+    .cmc_col_50:last-child {
+        border-radius: 0 0 30px 30px;
+    }
+    .red_btn_wrap {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 1200px){
+    .coach_profile_wrap .h6_title br{
+        display: none;
+    }
+}
+
+@media (max-width: 1199px){
+    
+    /* Mobile Menu Start */
+    .menu_toggle_btn {
+        cursor: pointer;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+        flex-direction: column;
+        width: 25px;
+        height: 25px;
+        position: relative;
+        z-index: 102;
+    }
+    .menu_toggle_btn span {
+        width: 18.39px;
+        height: 2px;
+        background-color: #FFFFFF;
+        -webkit-transition: all 0.5s ease 0s;
+        -moz-transition: all 0.5s ease 0s;
+        -ms-transition: all 0.5s ease 0s;
+        -o-transition: all 0.5s ease 0s;
+        transition: all 0.5s ease 0s;
+    }
+    .menu_toggle_btn span:nth-child(1) {
+        margin-top: 0;
+        margin-bottom: 9px;
+        width: 12px;
+        margin-left: auto;
+    }
+    .menu_toggle_btn span:nth-child(2) {
+        width: 25px;
+        margin-bottom: 9px;
+    }
+    .menu_toggle_btn span:nth-child(3) {
+        width: 12px;
+        margin-right: auto;
+    }
+    .open_menu .menu_toggle_btn span:nth-child(1) {
+        transform: rotate(45deg) translateY(2px) translateX(5px);
+        width: 25px;
+    }
+    .open_menu .menu_toggle_btn span:nth-child(2){
+        display: none;	
+    }
+    .open_menu .menu_toggle_btn span:nth-child(3) {
+        transform: rotate(-43deg) translateY(-3px) translateX(6px);
+        width: 25px;
+    }
+    /* Mobile Menu Close */
+
+
+    /* Mobile Menu Open Start */
+    .menu_block {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: #191e24;
+        clip-path: circle(0px at 100% 0px);
+        -webkit-clip-path: circle(0px at 100% 0px);
+        -webkit-transition: 0.5s ease all;
+        -o-transition: 0.5s ease all;
+        transition: 0.5s ease all;
+        z-index: -1;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: column;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
+    .open_menu .menu_block {
+        clip-path: circle(100%);
+        -webkit-clip-path: circle(100%);
+        opacity: 1;
+        visibility: visible;
+        pointer-events: visible;
+        text-align: center;
+    }
+    .inn_menu {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .menu_item{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .menu_item:not(:first-child){
+        margin-left: 0;
+    }
+    /* Mobile Menu Open Close */
+    #header_wrapper {
+        width: 100%;
+        display: block;
+    }
+    .header_menu {
+        justify-content: space-between;
+    }
+    
+    .inner_page .menu_item {
+        margin: 7px 0;
+    }
+    .inner_page .inn_menu li:last-child{
+        margin-top: 10px;
+    }
+    .hero_title {
+        font-size: 109px;
+    }
+    .index_page #hero_sec {
+        height: 80vh;
+    }
+    .h6_title br{
+        display: none;
+    }
+    .coach_profile_wrap .h6_title,
+    .virtual_fitness span, .virtual_fitness li{
+        font-size: 24px;
+    }
+    .scrolling-words-box {
+        height: 34px;
+    }
+    .virtual_fitness_wrap,
+    .recipes_nutrition_wrap, 
+    .content_creation_wrap{
+        padding-bottom: 80px;
+    }
+    .footer_wrapper {
+        padding: 80px 0 55px;
+    }
+    .f_logo {
+        width: 300px;
+    }
+    /* .social_box ul li + li {
+        margin-left: 35px;
+    } */
+    .f_menu_wrap > a {
+        font-size: 18px;
+    }
+    .dh_row {
+        flex-direction: column;
+    }
+    ul.tabs {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .tab_btn_wrap {
+        width: 100%;
+    }
+    .tab_content {
+        width: 100%;
+    }
+    .dash_title_wrap {
+        flex-direction: column;
+    }
+    .chart_btn {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .dash_title h2 br{
+        display: none;
+    }
+    .totale_price {
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    .tab_content{
+        padding-left: 0;
+    }
+    ul.tabs{
+        margin-bottom: 30px;
+    }
+    ul.tabs li {
+        height: 200px;
+        width: 31.3333%;
+    }
+    .tab-link svg {
+        width: 31%;
+    }
+    .tab-link[data-tab="tab-2"] svg{
+        width: 50px;
+    }
+    .tab-link[data-tab="tab-3"] svg{
+        width: 60px;
+    }
+    ul.tabs li + li {
+        margin-top: 0;
+    }
+    #wallet_credits {
+        padding: 166px 0 75px;
+    }
+    .ct_container {
+        padding: 35px 50px 40px 50px;
+    }
+    .cmc_sp_title {
+        font-size: 2rem;
+    }
+    /* .credit_card_slider {
+        padding-top: 40px;
+    } */
+    .sp_currency_title {
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+    .sp_currency_wrap {
+        margin-top: 37px;
+    }
+    
+
+    .cmc_container {
+        width: 90%;
+    }
+    .video_tab ul.tabs {
+        width: 555px;
+    }
+    .video_tab ul.tabs li{
+        width: 64px;
+        height: 41px;
+    }
+    .video_tab .tab-link svg {
+        width: 45%;
+    }
+}
+
+@media (max-width: 991px){
+    .index_page #hero_sec {
+        height: 60vh;
+        padding: 0px 0;
+    }
+    .hero_title {
+        font-size: 70px;
+    }
+
+    /* .menu_list {
+        font-size: 22px;
+    } */
+    .menu_list::before {
+        height: 3px;
+    }
+    .scroll-prompt-arrow > div {
+        width: 30px;
+        height: 30px;
+        border-right: 5px solid #bebebe;
+        border-bottom: 5px solid #bebebe;
+    }
+    .scroll-prompt-arrow {
+        margin-top: -12px;
+    }
+    .f_menu_wrap {
+        padding-left: 90px;
+        flex-wrap: wrap;
+    }
+    .social_box h6 {
+        font-size: 20px;
+    }
+    .content_creation_wrap .product_img_1, .coach_profile_wrap .product_img_1 {
+        width: 100%;
+    }
+    .content_creation_wrap .product_text_1, .coach_profile_wrap .product_text_1 {
+        width: 100%;
+        padding-left: 0;
+    }
+    .product_img_1 {
+        width: 40%;
+        margin: 0 auto;
+    }
+    .product_text_1 {
+        width: 100%;
+        padding-left: 15px;
+    }
+    .h6_title {
+        font-size: 24px;
+    }
+    .servise_wrap {
+        margin: 50px auto 0;
+    }
+    .index_page .owl-theme .owl-nav.disabled+.owl-dots {
+        margin-top: 0;
+        padding-left: 0;
+        bottom: -40px;
+        transform: translateX(-50%);
+        right: auto;
+        left: 50%;
+        text-align: center;
+        width: 100%;
+    }
+
+    .servise_product_title {
+        font-size: 36px;
+        margin: 30px 0 15px;
+    }
+    .coach_profile_wrap .h6_title, .virtual_fitness span, .virtual_fitness li {
+        font-size: 22px;
+        max-width: unset;
+    }
+    .content_creation_wrap .product_img_1, .coach_profile_wrap .product_img_1 {
+        width: 100%;
+        text-align: center;
+    }
+    .scrolling-words-box {
+        height: 30px;
+    }
+    .f_menu_wrap {
+        padding-left: 0;
+        flex-wrap: wrap;
+    }
+    .fitness_title h3 {
+        font-size: 50px;
+    }
+    .servise_wrapper {
+        padding: 50px 0 0;
+    }
+    .h6_title {
+        max-width: unset;
+    }
+    .product_slider {
+        width: 100%;
+        padding-left: 0;
+    }
+    .cm_slider {
+        flex-direction: column;
+    }
+    .recipes_nutrition_wrap, .virtual_fitness_wrap,
+    .content_creation_wrap, .coach_profile_wrap,
+    .content_creation_wrap .product_slider {
+        width: 100%;
+    }
+    .recipes_nutrition_wrap .product_text_1 {
+        padding-left: 0;
+    }
+    .servise_wrap {
+        padding: 0 15px;
+    }
+    ul.tabs li h6 {
+        font-size: 22px;
+    }
+    .tab-link svg {
+        width: 70px;
+    }
+    .tab-link[data-tab="tab-2"] svg {
+        width: 45px;
+    }
+    .tab-link[data-tab="tab-3"] svg {
+        width: 55px;
+    }
+    ul.tabs li h6 {
+        margin-top: 15px;
+    }
+    ul.tabs li {
+        height: 160px;
+        width: 31.3333%;
+    }
+    .chart_data,
+    .chart_wrap{
+        width: 100%;
+        padding-left: 0;
+    }
+    .chart_details {
+        flex-wrap: wrap;
+    }
+    .chart_data {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    .chart_box_wrap + .chart_box_wrap {
+        margin-top: 0;
+    }
+    .chart_box_wrap{
+        width: 31.3333%;    
+    }
+    .totale_price {
+        font-size: 28px;
+    }
+    .chart_media_body h6 {
+        font-size: 14px;
+        padding-left: 10px;
+    }
+    .cm_th h2 {
+        font-size: 23px;
+    }
+    .cm_td {
+        padding: 15px;
+        font-size: 18px;
+    }
+    .cm_th {
+        padding: 0 0 15px 15px;
+    }
+    .cm_td:nth-child(2), .cm_th:nth-child(2) {
+        width: 334px;
+    }
+    .cm_td:nth-child(1), .cm_th:nth-child(1) {
+        width: 210px;
+    }
+    .cm_td:nth-child(3), .cm_th:nth-child(3) {
+        width: 190px;
+    }
+    .cm_td:nth-child(4), .cm_th:nth-child(4) {
+        width: 215px;
+    }
+    .table_wrap {
+        margin-top: 40px;
+    }
+    .cm_th:last-child{
+        padding-left: 0 ;
+    }
+    .ct_container {
+        width: 96%;
+        padding: 50px;
+    }
+    .owl_credit_card.owl-theme .owl-dots.disabled {
+        margin-top: 10px !important;
+        width: 100% !important;
+        transform: unset !important;
+    }
+    .red_btn_wrap {
+        margin-top: 30px;
+    }
+    .cmc_sp_title {
+        font-size: 2rem;
+    }
+    .credit_amount {
+        padding: 40px 20px 40px;
+    }
+    .payment_currency .nice-select {
+        height: 45px;
+        padding-right: 70px;
+    }
+    .payment_currency span.current {
+        text-align: left;
+    }
+    .owl_addpayment {
+        font-size: 18px;
+        border-radius: 10px;
+        padding: 13px 35px;
+    }
+    .red_btn_wrap > a {
+        padding: 10px 35px;
+        font-size: 18px;
+    }
+
+    .withdrawal_amount_two {
+        padding: 20px 20px;
+        border-radius: 10px;
+    }
+
+    .cmc_container {
+        width: 96%;
+    }
+
+    .total_balance_main {
+        width: 400px;
+        height: 400px;
+    }
+
+
+
+    .video_tab ul.tabs {
+        width: 100%;
+    }
+    .play {
+        width: 250px;
+    }
+    .video_tab ul.tabs li {
+        width: 54px;
+        height: 40px;
+    }
+    .video_tab {
+        left: 0;
+        width: 100%;
+        padding: 0 15px;
+    }
+    .back_arrow a {
+        width: 13px;
+    }
+    .video_play_list img{
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 767px){
+    .hero_title {
+        font-size: 50px;
+    }
+    .cm_row {
+        flex-wrap: wrap;
+    }
+    .f_logo {
+        text-align: center;
+        width: 100%;
+    }
+    .f_menu_wrap {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .chart_data {
+        flex-wrap: wrap;
+    }
+    .chart_box_wrap {
+        width: 46%;
+        margin: 0 auto 15px;
+        height: auto;
+    }
+    .tab-content {
+        padding: 20px 15px;
+    }
+    .dash_title h2 {
+        font-size: 32px;
+    }
+    ul.tabs li h6 {
+        font-size: 14px;
+    }
+    .tab-link svg {
+        width: 44px;
+        height: auto;
+    }
+    .tab-link[data-tab="tab-2"] svg {
+        width: 26px;
+    }
+    .tab-link[data-tab="tab-3"] svg {
+        width: 35px;
+    }
+    ul.tabs li h6 {
+        margin-top: 15px;
+    }
+    ul.tabs li {
+        height: 100px;
+        width: 31.3333%;
+        padding: 0 15px;
+    }
+    .tab_menu_wrap {
+        margin-top: 32px;
+    }
+    span.current {
+        font-size: 20px;
+    }
+    .nice-select {
+        height: 44px;
+        padding: 0 40px 0 20px;
+    }
+    .nice-select:after {
+        right: 20px;
+    }
+    .nice-select .option {
+        font-size: 17px;
+        padding-left: 15px;
+        height: 40px;
+    }
+    .cm_th {
+        padding: 0 0 0px 15px;
+    }
+    .field-container input {
+        font-size: 18px;
+    }
+    .ct_container {
+        width: 96%;
+        padding: 20px 15px;
+        border-radius: 10px;
+    }
+    .field-container {
+        padding: 12px 15px 12px 15px;
+    }
+    .ct_title, .cd_card_details {
+        font-size: 32px;
+    }
+    .plan {
+        font-size: 26px;
+        padding: 11px 0 11px 30px;
+    }
+    .form_save_btn {
+        font-size: 26px;
+        padding: 12px 10px;
+        margin-top: 30px;
+    }
+    .cd_card_details {
+        margin-bottom: 18px;
+    }    
+    .col_4 {
+        width: 39%;
+    }
+    .cmc_container {
+        width: 96%;
+    }
+    .owl_credit_card .owl-item.center .owl_card_wrap {
+        border: 1px solid #fff;
+        border-radius: 20px;
+    }
+}
+
+@media (max-width: 719px){
+  
+}
+
+@media screen and (max-width:600px){
+    .index_page #hero_sec {
+        height: 40vh;
+    }
+    .scroll-prompt-arrow > div {
+        width: 20px;
+        height: 20px;
+        border-right: 3px solid #bebebe;
+        border-bottom: 3px solid #bebebe;
+    }
+    .scroll-prompt-arrow {
+        margin-top: -8px;
+    }
+    .scroll-prompt-arrow-container {
+        bottom: 50px;
+    }
+    .coach_profile_wrap .h6_title{
+        max-width: 94%;
+    }
+    .coach_profile_wrap .h6_title, .virtual_fitness span, .virtual_fitness li {
+        font-size: 20px;
+    }
+    .h6_title {
+        font-size: 20px;
+    }
+    .fitness_title h3 {
+        font-size: 36px;
+    }
+    .servise_wrapper {
+        padding: 40px 0 0;
+    }
+    .servise_wrap {
+        margin: 30px auto 0;
+    }
+    .h6_title {
+        max-width: 100%;
+    }
+    .scrolling-words-box {
+        height: 27px;
+    }
+    .servise_product_title {
+        font-size: 34px;
+    }
+    .footer_wrapper {
+        padding: 50px 0 50px;
+    }
+    .servise_video_wrap video {
+        height: 100%;
+        width: 100%;
+    }
+    .cm_th h2 {
+        font-size: 20px;
+    }
+    .cm_td h6 {
+        font-size: 17px;
+    }
+    .cm_td:nth-child(1), .cm_th:nth-child(1) {
+        width: 190px;
+    }
+    .cm_td:nth-child(2), .cm_th:nth-child(2) {
+        width: 280px;
+    }
+    .cm_td:nth-child(3), .cm_th:nth-child(3) {
+        width: 170px;
+    }
+    .cm_th:last-child {
+        padding-left: 10px;
+    }
+    .cm_tbody {
+        height: calc(50vh - 50px);
+    }
+    .card_and_check > p {
+        margin-right: 8px;
+    }
+    .credit_package {
+        flex-wrap: wrap;
+    }
+    .sp_currency_title {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .select_currency {
+        margin-top: 30px;
+    }
+    .select_currency .sp_currency_title{
+        margin-bottom: 25px;
+    }
+    .radio-img > input:checked + .select_coach_box .select_coach_tex {
+        margin-top: 15px;
+    }
+    .select_coach_tex h6 {
+        font-size: 26px;
+    }
+    .chece_icon_wrap {
+        width: 29px;
+        height: 29px;
+    }
+   
+
+    .total_balance_main {
+        width: 360px;
+        height: 360px;
+        border: 15px solid #fff;
+    }
+
+    .last_transactions_content h4 {
+        font-size: 18px;
+        padding-left: 0;
+    }
+    .last_transactions_icon {
+        width: 75px;
+        height: 75px;
+        margin-right: 20px;
+        justify-content: center;
+    }
+    .last_transactions_icon img{
+        width: 61%;    
+    }
+    .last_transactions_text span {
+        font-size: 15px;
+    }
+    .last_transactions_content h5 {
+        font-size: 14px;
+    }
+    .last_transactions_content h6 {
+        font-size: 10px;
+    }
+
+    .modal-content {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .play {
+        width: 170px;
+    }
+    .video_tab ul.tabs {
+        padding: 0;
+    }
+    .video_tab ul.tabs li {
+        width: 50px;
+        height: 38px;
+    }
+    .video_tab .tab-link[data-tab="tab-3"] svg {
+        width: 25px;
+    }
+
+}
+
+@media screen and (max-width:575px) {
+    .owl_credit_card .owl-item.center .owl_card_wrap {
+        border: 0;
+        border-radius: 20px;
+    }
+    /* .credit_card_slider {
+        padding-top: 20px;
+    } */
+    .owl_credit_card.owl-theme .owl-dots {
+        margin-top: 10px !important;
+        width: 100% !important;
+        transform: unset !important;
+    }
+    .credit_package > label {
+        padding: 0 9px 20px;
+    }
+    .radio-img > input:checked + .select_coach_box .coach_img > img {
+        max-width: 70%;
+        max-height: 70%;
+        transform: scale(1.2) translateY(0px);
+    }
+    .radio-img > input:checked + .select_coach_box .select_coach_img {
+        width: 223px;
+        height: 208px;
+    }
+    .radio-img > input:checked + .select_coach_box .select_coach_tex {
+        transform: translateY(7px);
+        padding-left: 10px;
+        height: 54px;
+    }
+}
+
+@media (max-width: 450px){
+    ul.tabs {
+        flex-wrap: wrap;
+    }
+    ul.tabs li {
+        width: 100%;
+        margin: 0 auto 15px;
+    }
+    .chart_btn > a {
+        font-size: 14px;
+        margin: 10px;
+    }
+    .chart_box_wrap {
+        width: 100%;
+    }
+    .totale_price {
+        margin-top: 5px;
+        font-size: 22px;
+    }
+    .dash_title h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+    .nice-select {
+        width: 100%;
+    }
+    .cm_tbody,
+    .cm_th_tr{
+        padding-right: 10px;
+    }
+    .ct_title, .cd_card_details {
+        font-size: 25px;
+    }
+    .plan span {
+        margin-right: 15px;
+    }
+    .plan {
+        font-size: 21px;
+        padding: 13px 0 11px 30px;
+    }
+    #wallet_credits {
+        height: 100vh;
+        padding: 116px 0 75px;
+    }
+    .radio-img > input:checked + .select_coach_box .select_coach_img{
+        transform: unset;
+    }
+    .radio-img > input:checked + .select_coach_box .select_coach_tex {
+        transform: unset;
+    }
+    .radio-img > input:checked + .select_coach_box .select_coach_img {
+        margin: 0 auto;
+    }
+    .select_coach_tex {
+        height: 50px;
+        margin-top: 15px;
+    }
+    .cmc_sp_title {
+        font-size: 1.8rem;
+    }
+    .cmc_container {
+        width: 93%;
+    }
+    .payment_currency .nice-select {
+        width: 100%;
+    }
+
+
+    .withdrawal_amount_two {
+        padding: 10px 15px;
+        border-radius: 10px;
+    }
+
+    .total_balance_main {
+        width: 270px;
+        height: 270px;
+        border: 6px solid #fff;
+    }
+
+  
+    .last_transactions_li {
+        flex-wrap: wrap;
+    }
+    .last_transactions_text {
+        text-align: left;
+        margin-top: 15px;
+    }
+    .last_transactions_icon {
+        margin-right: 10px;
+    }
+
+    
+ 
+
+    .product_text_1 {
+        padding-left: 0px;
+    }
+    .tab_menu_wrap {
+        margin-bottom: 20px;
+    }
+    .chart_media {
+        justify-content: center;
+    }
+
+ 
+}
+
+@media (max-width: 400px){
+    .hero_title {
+        font-size: 40px;
+    }
+    #header_wrapper {
+        padding: 10px 15px;
+    }
+    .index_page #hero_sec {
+        height: 30vh;
+        padding: 25px 0 0;
+    }
+    .hero_title {
+        font-size: 30px;
+    }
+    .scroll-prompt-arrow > div {
+        width: 10px;
+        height: 10px;
+        border-right: 2px solid #bebebe;
+        border-bottom: 2px solid #bebebe;
+    }
+    .scroll-prompt-arrow {
+        margin-top: -3px;
+    }
+    .scroll-prompt-arrow-container {
+        bottom: 32px;
+    }
+    .product_text_1 {
+        padding: 0;
+    }
+    .servise_product_title {
+        font-size: 28px;
+    }
+    .h6_title {
+        font-size: 18px;
+    }
+    .coach_profile_wrap .h6_title, .virtual_fitness span, .virtual_fitness li {
+        font-size: 18px;
+    }
+    .scrolling-words-box {
+        height: 23px;
+    }
+    .footer_wrapper {
+        padding: 30px 0;
+    }
+    .social_box h6 {
+        margin-bottom: 10px;
+    }
+    .servise_product_title {
+        font-size: 28px;
+        margin: 15px 0 9px;
+    }
+    .hero_title {
+        font-size: 40px;
+    }
+    .cm_video_wrap {
+        height: auto;
+    }
+    .f_menu_wrap > a {
+        line-height: 1.5;;
+    }
+    .f_menu_wrap {
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .field-container input {
+        font-size: 14px;
+    }
+    .field-container {
+        padding: 9px 15px 13px 15px;
+    }
+    .inner_page #header_wrapper {
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width: 367px){
+    .product_img_1 {
+        margin: 0 auto;
+    }
+    .h6_title {
+        font-size: 14px;
+    }
+    .coach_profile_wrap .h6_title, .virtual_fitness span, .virtual_fitness li {
+        font-size: 14px;
+    }
+    .scrolling-words-box {
+        height: 20px;
+    }
+    .coach_profile_wrap {
+        padding-bottom: 55px;
+    }
+    /* .social_box ul li + li {
+        margin-left: 22px;
+    } */
+    .f_menu_wrap > a {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .servise_product_title {
+        font-size: 22px;
+    }
+    .fitness_title h3 {
+        font-size: 32px;
+    }
+    .social_box h6 {
+        font-size: 18px;
+    }
+    .inner_page .inn_menu li:last-child {
+        margin-top: 22px;
+    }
+    .field-container {
+        padding: 6px 10px 9px 9px;
+    }
+    .credit_amount {
+        padding: 25px 10px;
+    }
+    .owl_addpayment {
+        padding: 13px 15px;
+    }
+    .select_currency .sp_currency_title {
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+    #wallet_credits {
+        padding: 116px 0 75px;
+    }
+ 
+    .last_transactions {
+        padding: 33px 0px 26px;
+    }
+    .last_transactions_content h4 {
+        font-size: 18px;
+    }
+    .last_transactions_icon {
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+    }
+    .last_transactions_text {
+        margin-top: 5px;
+    }
+}
+
