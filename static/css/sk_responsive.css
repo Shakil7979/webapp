@@ -109,7 +109,19 @@
     .form-group label {
         font-size: 15px;
     }
+    select { 
+        padding: 10px 20px 10px 50px;
+    }
 
+    .input_img img {
+        width: 18px;
+    }
+    .input_img { 
+        top: 11px;
+    }
+    select { 
+        font-size: 16px; 
+    }
 }
     @media all and (max-width:767px){
         .user_control_bottom {
