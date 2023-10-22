@@ -185,7 +185,7 @@
                     <ul>
                       <li><img src="static/images/mic-mute-fill.png" alt="icon"></li>
                       <li><img src="static/images/camera-video-off-fill.png" alt="icon"></li>
-                      <li><img src="static/images/setting.png" alt="icon"></li>
+                      <li><img class="settings_btn" src="static/images/setting.png" alt="icon"></li>
                       <li>Start Streaming</li>
                     </ul>
                   </div>
@@ -196,6 +196,52 @@
         </div>
         <!-- chat popup -->
       </section>
+
+      <div class="strim_setting_area">
+        <h1>Stream Settings</h1>
+        <form action="">
+          <!-- items -->
+          <div class="select-box"> 
+            <span class="input_img"><img src="static/images/camera-video-fill.png" alt=""></span>
+            <select name="select" id="select" required> 
+              <option selected hidden value="">FaceTime HD Camera</option>
+              <option value="">FaceTime HD Camera</option>
+              <option value="">FaceTime HD Camera</option>
+              <option value="">FaceTime HD Camera</option>
+              <option value="">FaceTime HD Camera</option>
+            </select>
+          </div>
+          <div class="select-box"> 
+            <span class="input_img"><img src="static/images/mic-fill.png" alt=""></span>
+            <select name="select" id="select" required>  
+              <option selected hidden value="">Default - MacBook Air Microphone  Bui…</option>
+              <option value="">Default - MacBook Air Microphone  Bui…</option>
+              <option value="">Default - MacBook Air Microphone  Bui…</option>
+              <option value="">Default - MacBook Air Microphone  Bui…</option>
+              <option value="">Default - MacBook Air Microphone  Bui…</option>
+            </select>
+          </div> 
+          <div class="select-box"> 
+            <span class="input_img"><img src="static/images/badge-hd-fill.png" alt=""></span>
+            <select name="select" id="select" required>   
+              <option  selected hidden value="">HD 720p</option>
+              <option value="">HD 1080p</option>
+              <option value="">HD 360p</option>
+              <option value="">HD 720p</option>
+            </select>
+          </div> 
+          
+          <div class="checkbox form-group">
+            <input type="checkbox" id="permision"> <label for="permision">Remember my settings on this browser</label>
+          </div>
+          <ul class="end_popup_control_btn end_popup_control_btn_2">
+            <li><span class="cencel_popup">Cancel</span></li>
+            <li><span>Save</span></li>
+          </ul>
+        </form>
+        
+      </div>
+      
  
     <!--**************START HEADER AREA**************-->
     <!-- JS Files -->
